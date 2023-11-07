@@ -9,6 +9,7 @@ const Container = styled.div`
 
 const Wrapper = styled.div`
   padding: 10px 20px;
+  height: calc(100% - 20px);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -24,6 +25,7 @@ const Language = styled.span`
   font-size: 14px;
   cursor: pointer;
 `;
+
 const SearchContainer = styled.div`
   border: 0.5px solid lightgray;
   display: flex;
